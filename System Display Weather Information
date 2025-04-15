@@ -1,0 +1,16 @@
+public class WeatherApp {
+
+    public static void main(String[] args) {
+        String city = "New York";
+        String description = "Clear sky";
+        double temperature = 22.5;
+        int humidity = 65;
+        double windSpeed = 5.5;
+
+        System.out.println("Weather Information for " + city + ":");
+        System.out.println("Description: " + description);
+        System.out.println("Temperature: " + temperature + "°C");
+        System.out.println("Humidity: " + humidity + "%");
+        System.out.println("Wind Speed: " + windSpeed + " m/s");
+    }
+}
